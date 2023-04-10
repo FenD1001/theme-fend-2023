@@ -1,0 +1,13 @@
+[02-Apr-2023 13:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function whb_generate_header() in /home/yvcyjsakhosting/public_html/demo/wp-content/themes/fend/header.php:26
+Stack trace:
+#0 /home/yvcyjsakhosting/public_html/demo/wp-includes/template.php(783): require_once()
+#1 /home/yvcyjsakhosting/public_html/demo/wp-includes/template.php(718): load_template('/home/yvcyjsakh...', true, Array)
+#2 /home/yvcyjsakhosting/public_html/demo/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/yvcyjsakhosting/public_html/demo/wp-content/themes/fend/404.php(6): get_header()
+#4 /home/yvcyjsakhosting/public_html/demo/wp-includes/template-loader.php(106): include('/home/yvcyjsakh...')
+#5 /home/yvcyjsakhosting/public_html/demo/wp-blog-header.php(19): require_once('/home/yvcyjsakh...')
+#6 /home/yvcyjsakhosting/public_html/demo/index.php(17): require('/home/yvcyjsakh...')
+#7 {main}
+  thrown in /home/yvcyjsakhosting/public_html/demo/wp-content/themes/fend/header.php on line 26
+[03-Apr-2023 04:44:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[03-Apr-2023 04:44:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
